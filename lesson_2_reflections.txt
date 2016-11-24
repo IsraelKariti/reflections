@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when i initialize a repository a hidden directory is created. this directory holds all the information.
+and everytime i use a git command such as git log or git checkout a sequence of commands. 
+in contrast to 	win OS where every SW is a ton of code bundled together, in linux every command is a separate little bit of executable. so when i run git checout for example it manipulates the data in the file.
+git diff by the way, and git log only observe the data in the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is actually just a data in the .git folder
+it mentions all the files that are interesting to the user. so when a commit occures the changes are recorded
+
